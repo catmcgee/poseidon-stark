@@ -1,4 +1,5 @@
 pub mod bn254; // Instantiations of Poseidon for prime field of the same order as BN254
+pub mod stark; // Instantiations of Poseidon for Stark-prime field
 use std::default::Default;
 use std::hash::Hasher;
 
