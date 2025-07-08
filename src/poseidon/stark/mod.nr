@@ -3,7 +3,7 @@ use consts::{alpha, mds, round_constants, presparse_mds, sparse_mds};
 
 use crate::poseidon::{config, permute, PoseidonConfig};
 
-pub fn stark_config() -> PoseidonConfig<3, 273, 415> {
+pub fn stark_config() -> PoseidonConfig<3, 107, 415> {
     config(
         3,               
         8,              
